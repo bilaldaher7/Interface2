@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "764488658618",
+    "firebase_url": "https://calendrier-2da2a.firebaseio.com",
+    "project_id": "calendrier-2da2a",
+    "storage_bucket": "calendrier-2da2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764488658618:android:2fad5a4ab46fc6d0",
+        "android_client_info": {
+          "package_name": "com.example.android.ezcal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764488658618-u7ab6ip4tl0co6csoe32ru90endeinh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.ezcal",
+            "certificate_hash": "8fd307e2c530a706332c87b6526c4a3d6a53d0bd"
+          }
+        },
+        {
+          "client_id": "764488658618-tjtmc3lcu3idqu77kts4ojic6l21dam9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF_HWZUx9EYcfVcfv0Dp6LEbGBW4huXRw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764488658618-tjtmc3lcu3idqu77kts4ojic6l21dam9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

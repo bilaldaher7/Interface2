@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:paddingStart="5dp"
+                android:textSize="24sp"
+                android:layout_gravity="center_vertical"
+                android:text="Adam, Félix"/>
+
+            <ImageButton
+                android:id="@+id/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@null"
+                android:src="@drawable/ic_settings_applications_black_24dp"
+                android:contentDescription="@string/settings"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ajoutEvenement"
+            android:gravity="center"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/eventName"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="@string/nomEvenement"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/debut"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/debutEvenement"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <DatePicker
+                android:id="@+id/dateDebut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginRight="-50dp"
+                android:layout_marginBottom="-30dp"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false" />
+            <TimePicker
+                android:id="@+id/heureDebut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-30dp"
+                android:layout_marginStart="-40dp"
+                android:layout_marginEnd="-50dp"
+                android:layout_marginTop="-30dp"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:timePickerMode="spinner" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/fin"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/finEvenement"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <DatePicker
+                android:id="@+id/dateFin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginRight="-50dp"
+                android:layout_marginBottom="-30dp"
+                android:datePickerMode="spinner"
+                android:calendarViewShown="false"/>
+            <TimePicker
+                android:id="@+id/heureFin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.6"
+                android:scaleY="0.6"
+                android:layout_marginStart="-40dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginEnd="-50dp"
+                android:layout_marginBottom="-30dp"
+                android:timePickerMode="spinner"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/couleurEtiquette"
+                android:layout_gravity="center_vertical"/>
+
+            <com.skydoves.colorpickerview.ColorPickerView
+                android:id="@+id/colorPickerView"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:palette="@drawable/palette"
+                app:selector="@drawable/wheel" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addEvent"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/addEvent">
+        </Button>
+    </LinearLayout>
+</ScrollView>
