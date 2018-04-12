@@ -5,7 +5,7 @@
     android:id="@+id/facebook_signin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.bilaldaher.mycalendar2.Facebook_sign_in_page">
+    tools:context=".Facebook_sign_in_page">
 
     <TextView
         android:id="@+id/textView8"

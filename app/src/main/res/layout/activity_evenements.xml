@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.bilaldaher.mycalendar2.Evenements">
+    tools:context=".Evenements">
 
     <EditText
         android:id="@+id/editText2"

@@ -1,4 +1,4 @@
-package com.example.bilaldaher.mycalendar2;
+package com.example.android.ezcal;
 
 import android.provider.CalendarContract;
 import android.support.v7.app.AppCompatActivity;

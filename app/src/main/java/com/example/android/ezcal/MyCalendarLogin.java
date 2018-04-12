@@ -1,4 +1,4 @@
-package com.example.bilaldaher.mycalendar2;
+package com.example.android.ezcal;
 
 import android.app.ProgressDialog;
 import android.content.Intent;

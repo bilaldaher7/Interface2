@@ -1,4 +1,4 @@
-package com.example.bilaldaher.mycalendar2;
+package com.example.android.ezcal;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -10,20 +10,15 @@ import android.widget.Button;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import android.os.Bundle;
+
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.View;
 import android.widget.EditText;
-import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
-
-import org.w3c.dom.Text;
 
 
 public class MyCalendarSignUp extends AppCompatActivity implements View.OnClickListener {
