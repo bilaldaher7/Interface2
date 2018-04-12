@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/facebook_signin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bilaldaher.mycalendar2.Facebook_sign_in_page">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_orange_dark"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="MY CALENDAR"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:ems="10"
+        android:hint="RE-ENTER PASSWORD"
+        android:inputType="textPassword"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:text="ENTER THE EMAIL YOU WISH TO CREATE THE ACCOUNT WITH"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/create_account_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:text="CREATE ACCOUNT" />
+
+</RelativeLayout>

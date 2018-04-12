@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@mipmap/facebook_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@mipmap/google_logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginTop="64dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@mipmap/calendar_logo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:background="@color/colorPrimaryDark"
+        android:text="SIGN UP WITH FACEBOOK" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_toEndOf="@+id/imageButton3"
+        android:background="@android:color/holo_orange_dark"
+        android:text="SIGN UP WITH GOOGLE" />
+
+    <Button
+        android:id="@+id/sign_up_app_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_toEndOf="@+id/imageButton4"
+        android:background="@android:color/holo_red_dark"
+        android:text="SIGN UP WITH MYCALENDAR ACCOUNT" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="SIGN UP"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="OR"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+                                    --WELCOME SCREEN--
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="33dp"
+        android:height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Already have an account?"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="SIGN IN" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Don't have an account? "
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="44dp"
+        android:text="SIGN UP" />
+
+
+
+</RelativeLayout>
+

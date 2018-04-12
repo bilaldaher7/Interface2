@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "809382675011",
+    "firebase_url": "https://mycalendar2-87cc5.firebaseio.com",
+    "project_id": "mycalendar2-87cc5",
+    "storage_bucket": "mycalendar2-87cc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809382675011:android:e83842e4a15b62a2",
+        "android_client_info": {
+          "package_name": "com.example.bilaldaher.mycalendar2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809382675011-f3v2il4kg9v4dg45beb931u6tbfm1ufq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilaldaher.mycalendar2",
+            "certificate_hash": "a30cefb09a2ceb6342a81ed6f35f07b2ebfc457d"
+          }
+        },
+        {
+          "client_id": "809382675011-prqnik7338d2vci9rnhaiqq18kuv13uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNGTZEQK5C4kjr0Xi2udDwSNm0Ai-L8aE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809382675011-prqnik7338d2vci9rnhaiqq18kuv13uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
